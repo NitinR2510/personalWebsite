@@ -1,0 +1,39 @@
+.row.content {overflow: hidden;}
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  padding: 0.7rem;
+}
+/* Set black background color, white text and some padding */
+ul{
+  list-style: none;
+}
+ul a:hover{
+  transform: scale(1.2);
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+}
+h1{
+  font-family: "Times New Roman", Serif, Arial;
+}
+a{
+  color: #1F476B;
+  text-decoration: none;
+}
+.col-sm-9 a{
+  color: #000;
+}
+i{
+  display: block;
+}
+#image{
+  background-image: url(../images/me2.jpg);
+  background-size: cover;
+}
